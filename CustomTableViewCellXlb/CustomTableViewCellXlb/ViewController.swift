@@ -27,6 +27,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
         cell.ImageContainer.image = UIImage(named: "Food\(indexPath.row)")
         cell.lblImage.text = imageNames[indexPath.row]
+        //cell.lblImage.text = "Food\(indexPath.row)"
         return cell
     }
 }
