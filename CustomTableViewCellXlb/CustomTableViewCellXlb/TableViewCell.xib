@@ -16,35 +16,35 @@
                 <rect key="frame" x="0.0" y="0.0" width="730" height="548"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qci-TS-wM9">
-                        <rect key="frame" x="25" y="507" width="680" height="25"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food1" translatesAutoresizingMaskIntoConstraints="NO" id="IqI-Hw-bKw">
+                        <rect key="frame" x="5" y="5" width="720" height="508"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXN-jF-awN">
+                        <rect key="frame" x="5" y="518" width="720" height="25"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="25" id="0Zc-N6-N48"/>
+                            <constraint firstAttribute="height" constant="25" id="9fO-ts-ruP"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food1" translatesAutoresizingMaskIntoConstraints="NO" id="tER-O7-O2r">
-                        <rect key="frame" x="5" y="5" width="720" height="497"/>
-                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="tER-O7-O2r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="F3Z-e8-lGh"/>
-                    <constraint firstItem="qci-TS-wM9" firstAttribute="top" secondItem="tER-O7-O2r" secondAttribute="bottom" constant="5" id="JuJ-ww-jFu"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="qci-TS-wM9" secondAttribute="trailing" constant="5" id="Lrb-oD-irO"/>
-                    <constraint firstItem="tER-O7-O2r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="SDY-SP-41k"/>
-                    <constraint firstItem="qci-TS-wM9" firstAttribute="top" secondItem="tER-O7-O2r" secondAttribute="bottom" constant="5" id="a1T-2l-6Wo"/>
-                    <constraint firstItem="qci-TS-wM9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="jTs-kL-hdV"/>
-                    <constraint firstAttribute="trailing" secondItem="tER-O7-O2r" secondAttribute="trailing" constant="5" id="nA5-Z4-J5G"/>
-                    <constraint firstItem="qci-TS-wM9" firstAttribute="top" secondItem="tER-O7-O2r" secondAttribute="bottom" constant="103" id="x9x-bI-aB3"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="qci-TS-wM9" secondAttribute="bottom" constant="5" id="zWq-oe-ofH"/>
+                    <constraint firstItem="nXN-jF-awN" firstAttribute="top" secondItem="IqI-Hw-bKw" secondAttribute="bottom" constant="5" id="KhD-6t-Yo2"/>
+                    <constraint firstItem="nXN-jF-awN" firstAttribute="top" secondItem="IqI-Hw-bKw" secondAttribute="bottom" constant="5" id="LmB-pu-2MJ"/>
+                    <constraint firstAttribute="trailing" secondItem="IqI-Hw-bKw" secondAttribute="trailing" constant="5" id="TkD-hs-m1M"/>
+                    <constraint firstAttribute="trailing" secondItem="nXN-jF-awN" secondAttribute="trailing" constant="5" id="gCf-AZ-ZCW"/>
+                    <constraint firstItem="nXN-jF-awN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="gny-oF-qH1"/>
+                    <constraint firstItem="IqI-Hw-bKw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="veD-jp-w74"/>
+                    <constraint firstItem="IqI-Hw-bKw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="wMa-Vt-7B1"/>
+                    <constraint firstAttribute="bottom" secondItem="nXN-jF-awN" secondAttribute="bottom" constant="5" id="wYj-3q-5fH"/>
+                    <constraint firstItem="nXN-jF-awN" firstAttribute="top" secondItem="IqI-Hw-bKw" secondAttribute="bottom" constant="100" id="yTZ-aa-qbb"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="ImageContainer" destination="tER-O7-O2r" id="dgf-fh-H19"/>
-                <outlet property="lblImage" destination="qci-TS-wM9" id="5hV-kO-88U"/>
+                <outlet property="ImageContainer" destination="IqI-Hw-bKw" id="xVB-zp-I8f"/>
+                <outlet property="lblImage" destination="nXN-jF-awN" id="wk9-e1-ftv"/>
             </connections>
             <point key="canvasLocation" x="432.06106870229007" y="88.732394366197184"/>
         </tableViewCell>

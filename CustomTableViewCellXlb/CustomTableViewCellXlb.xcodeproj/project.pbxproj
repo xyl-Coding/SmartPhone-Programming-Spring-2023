@@ -15,6 +15,7 @@
 		E542AF8329A7366700555CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E542AF8129A7366700555CCF /* LaunchScreen.storyboard */; };
 		E542AF8C29A736D500555CCF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542AF8A29A736D500555CCF /* TableViewCell.swift */; };
 		E542AF8D29A736D500555CCF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E542AF8B29A736D500555CCF /* TableViewCell.xib */; };
+		E542AFCF29C669F600555CCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E542AFCE29C669F600555CCF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,9 @@
 		E542AF7D29A7366600555CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E542AF7F29A7366700555CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E542AF8229A7366700555CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E542AF8429A7366700555CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E542AF8A29A736D500555CCF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E542AF8B29A736D500555CCF /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E542AFCE29C669F600555CCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Desktop/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,7 @@
 				E542AF7C29A7366600555CCF /* Main.storyboard */,
 				E542AF7F29A7366700555CCF /* Assets.xcassets */,
 				E542AF8129A7366700555CCF /* LaunchScreen.storyboard */,
-				E542AF8429A7366700555CCF /* Info.plist */,
+				E542AFCE29C669F600555CCF /* Info.plist */,
 				E542AF8A29A736D500555CCF /* TableViewCell.swift */,
 				E542AF8B29A736D500555CCF /* TableViewCell.xib */,
 			);
@@ -134,6 +135,7 @@
 				E542AF8329A7366700555CCF /* LaunchScreen.storyboard in Resources */,
 				E542AF8D29A736D500555CCF /* TableViewCell.xib in Resources */,
 				E542AF8029A7366700555CCF /* Assets.xcassets in Resources */,
+				E542AFCF29C669F600555CCF /* Info.plist in Resources */,
 				E542AF7E29A7366600555CCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
