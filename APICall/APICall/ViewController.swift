@@ -18,12 +18,11 @@ class ViewController: UIViewController {
     @IBOutlet var Price: UILabel!
     
     @IBOutlet var Website: UILabel!
-    //Field
     @IBOutlet var txtSymbol: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do anCy additional setup after loading the view.
     }
     
     @IBAction func getCompanyInfo(_ sender: Any) {
